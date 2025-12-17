@@ -32,7 +32,7 @@ module.exports = async (req, res) => {
                     quantity: 1,
                 }],
                 mode: 'payment',
-                success_url: 'https://e-s-c.framer.website/cart', // Замените на реальный
+                success_url: 'https://e-s-c.framer.website/cart/succes', // Замените на реальный
                 cancel_url: 'https://e-s-c.framer.website/',    // Замените на реальный
             });
 
